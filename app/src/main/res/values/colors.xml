@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="purple_500">#7C4DFF</color>
+    <color name="orange_500">#FF7A00</color>
+    <color name="bg_top">#6A11CB</color>
+    <color name="bg_bottom">#FF5722</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#0F766E</color>
+    <color name="tile_color">#334155</color>
+    <color name="tile_text">#FFFFFF</color>
+    <color name="primary">#4F46E5</color>
+
+    <!-- PRIMARY BRAND -->
+     <!-- Main Primary 700 -->
+    <color name="menu_btn">#809e9c</color>   <!-- Pressed -->
+    <color name="teal_900">#134E4A</color>   <!-- Very strong / headers -->
+
+    <!-- MID TONES -->
+    <color name="teal_600">#0D9488</color>   <!-- Active button / highlights -->
+    <color name="teal_500">#14B8A6</color>   <!-- Accent -->
+
+    <!-- LIGHT TONES -->
+       <!-- Selected card 200-->
+    <color name="teal_100">#CCFBF1</color>   <!-- Secondary button -->
+    <color name="teal_50">#F0FDFA</color>    <!-- Screen background -->
+
+
+
+</resources>

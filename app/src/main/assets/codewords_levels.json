@@ -1,0 +1,25 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "topSentenceLength": 13,
+      "questions": [
+        {
+          "clue": "Opposite of empty",
+          "answer": "FULL",
+          "numbers": [7, 13, 5, 5]
+        },
+        {
+          "clue": "Valentine's Day feeling",
+          "answer": "LOVE",
+          "numbers": [5, 12, 9, 3]
+        },
+        {
+          "clue": "Road message",
+          "answer": "STOP",
+          "numbers": [10, 6, 8, 4]
+        }
+      ]
+    }
+  ]
+}

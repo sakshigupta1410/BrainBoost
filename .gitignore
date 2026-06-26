@@ -1,0 +1,24 @@
+# Android Studio
+.idea/
+.gradle/
+.kotlin/
+# IntelliJ
+*.iml
+# Local configuration
+local.properties
+# Build output
+build/
+**/build/
+# Native build
+.externalNativeBuild/
+.cxx/
+# Logs
+*.log
+# ZIP files
+*.zip
+# OS files
+.DS_Store
+Thumbs.db
+# Firebase
+app/google-services.json
+app/src/main/res/google-services.json

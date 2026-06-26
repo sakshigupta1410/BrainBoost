@@ -1,0 +1,76 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Permissions -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="BrainBoost"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BrainBoost">
+
+        <!-- Launcher Activity -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Other Activities -->
+        <activity android:name=".OnboardingActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SettingsActivity"/>
+        <activity android:name=".AboutActivity"/>
+        <activity android:name=".FullScreenImageActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".MemoryCardFlipActivity" />
+
+        <activity
+            android:name=".MazeGameActivity"
+            android:exported="false" />
+        <activity android:name=".SpeedTapActivity"/>
+        <activity android:name=".WordScrambleActivity" />
+        <activity android:name=".TicTacToeActivity" />
+        <activity android:name=".CodeQuizActivity"/>
+        <activity
+            android:name=".PuzzleMenuActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".PuzzleGameActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".Puzzle15Activity"
+            android:exported="false" />
+
+        <activity android:name=".MathBrainQuizActivity"/>
+        <activity android:name=".SudokuActivity"/>
+
+        <activity android:name=".WordSearchMenuActivity" />
+        <activity android:name=".WordSearchActivity" />
+        <activity android:name=".ChessActivity"/>
+        <activity android:name=".Game2048Activity"/>
+        <activity android:name=".MissingNumberActivity"/>
+        <activity android:name=".ScienceDetectiveActivity" />
+        <activity android:name=".MindOfMoleculeActivity" />
+        <activity android:name=".FoodChainActivity" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stepContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvSequenceTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🌿 Arrange steps of Photosynthesis"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:background="#C8E6C9"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/draggableSteps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- step1, step2, step3 yaha move karo -->
+        <!-- Draggable items -->
+        <TextView
+            android:id="@+id/step1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CO₂ enters leaf"
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:background="#FFF9C4"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/step2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sunlight absorbed"
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:background="#FFF9C4"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/step3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food formed"
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:background="#FFF9C4"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+    <!-- Drop slots -->
+    <TextView
+        android:id="@+id/slot1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 1"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:background="#E0E0E0"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/slot2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 2"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:background="#E0E0E0"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/slot3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 3"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:background="#E0E0E0"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

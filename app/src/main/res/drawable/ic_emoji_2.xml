@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path android:fillColor="#0D47A1" android:pathData="M50,2A48,48 0 1,0 50,98A48,48 0 1,0 50,2z"/>
+    <!-- rocket / triangle + fins -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M50,28 L66,60 L50,52 L34,60 z M50,28 L50,14 L56,20 z"/>
+</vector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path android:fillColor="#6A1B9A" android:pathData="M50,2A48,48 0 1,0 50,98A48,48 0 1,0 50,2z"/>
+    <!-- puzzle piece simplified -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M28,40 h14 a6,6 0 0,1 6,6 a6,6 0 0,0 6,6 h14 v18 h-14 a6,6 0 0,1 -6,-6 a6,6 0 0,0 -6,-6 h-14 z"/>
+</vector>

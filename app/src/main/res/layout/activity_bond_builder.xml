@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_soft_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvLevelTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 1"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#7E57C2"/>
+
+        <!-- ATOMS -->
+        <LinearLayout
+            android:id="@+id/atomContainer"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp">
+
+            <TextView
+                android:id="@+id/atomH1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="H"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:background="@drawable/bg_option_default"
+                android:layout_margin="8dp"/>
+
+            <TextView
+                android:id="@+id/atomO"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="O"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:background="@drawable/bg_option_default"
+                android:layout_margin="8dp"/>
+
+            <TextView
+                android:id="@+id/atomH2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="H"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:background="@drawable/bg_option_default"
+                android:layout_margin="8dp"/>
+        </LinearLayout>
+
+        <!-- SLOTS -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/slotA"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="_"
+                android:textSize="20sp"
+                android:textColor="#031C2F"
+                android:background="#D5E9F8"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/slotB"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="_"
+                android:textSize="20sp"
+                android:textColor="#031C2F"
+                android:background="#D5E9F8"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/slotC"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="_"
+                android:textSize="20sp"
+                android:textColor="#031C2F"
+                android:background="#D5E9F8"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/bg_soft_gradient">
+
+    <TextView
+        android:id="@+id/tvLevel"
+        android:text="Level: 1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#444"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <ImageView
+            android:id="@+id/heart1"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_heart_full"/>
+
+        <ImageView
+            android:id="@+id/heart2"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_heart_full"/>
+
+        <ImageView
+            android:id="@+id/heart3"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_heart_full"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:text="Score: 0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/tvStreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#FF9800"
+        android:layout_marginBottom="8dp"/>
+
+    <GridLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_marginBottom="20dp">
+
+        <TextView android:id="@+id/cell1" style="@style/CellStyle"/>
+        <TextView android:id="@+id/cell2" style="@style/CellStyle"/>
+        <TextView android:id="@+id/cell3" style="@style/CellStyle"/>
+        <TextView android:id="@+id/cell4" style="@style/CellStyle"/>
+        <TextView android:id="@+id/cell5" style="@style/CellStyle"/>
+        <TextView android:id="@+id/cell6" style="@style/CellStyle"/>
+        <TextView android:id="@+id/cell7" style="@style/CellStyle"/>
+        <TextView android:id="@+id/cell8" style="@style/CellStyle"/>
+        <TextView android:id="@+id/cell9" style="@style/CellStyle"/>
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+        <Button android:id="@+id/btnOpt1"
+            style="@style/OptionBtn"/>
+        <Button android:id="@+id/btnOpt2"
+            style="@style/OptionBtn"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <Button android:id="@+id/btnOpt3"
+            style="@style/OptionBtn"
+            />
+        <Button android:id="@+id/btnOpt4"
+            style="@style/OptionBtn"/>
+    </LinearLayout>
+
+</LinearLayout>

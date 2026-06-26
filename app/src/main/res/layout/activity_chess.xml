@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_soft_gradient"
+    android:paddingTop="16dp"
+    android:paddingBottom="10dp">
+
+    <!-- TURN INDICATOR -->
+    <TextView
+        android:id="@+id/tvTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="White's Turn"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#263238"
+        android:layout_gravity="center"
+        android:paddingHorizontal="26dp"
+        android:paddingVertical="10dp"
+        android:background="@drawable/bg_turn_pill"
+        android:elevation="8dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- TOP CAPTURED PIECES -->
+    <LinearLayout
+        android:id="@+id/topCaptured"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:paddingHorizontal="20dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- BOARD CARD -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="14dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="14dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@color/teal_900">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp">
+
+            <com.example.brainboost.ChessBoardView
+                android:id="@+id/chessBoardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"/>
+
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- BOTTOM CAPTURED PIECES -->
+    <LinearLayout
+        android:id="@+id/bottomCaptured"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:paddingHorizontal="20dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="14dp"/>
+
+    <!-- ACTION BUTTONS -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUndo"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:text="Undo"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/green"
+            android:elevation="10dp"/>
+
+        <Button
+            android:id="@+id/btnRestart"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:layout_marginStart="14dp"
+            android:text="Restart"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/green"
+            android:elevation="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

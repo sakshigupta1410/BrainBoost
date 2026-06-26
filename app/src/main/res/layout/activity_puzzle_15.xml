@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="@drawable/bg_soft_gradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15-Puzzle Game"
+        android:textColor="#1F1556"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvBestTime"
+        android:text="Best: --:--"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:layout_marginTop="28dp"
+        android:layout_gravity="left"
+        />
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time: 00:00"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="18dp"/>
+
+
+    <!-- Puzzle Grid -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:padding="8dp"
+        android:background="#000"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart Game"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green"/>
+
+</LinearLayout>

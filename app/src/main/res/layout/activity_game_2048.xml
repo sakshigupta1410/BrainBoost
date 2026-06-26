@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_soft_gradient"
+    android:padding="12dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2048 Puzzle"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#3F1F78"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#210B49"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+    <com.example.brainboost.Game2048View
+        android:id="@+id/gameView"
+        android:layout_width="match_parent"
+        android:layout_height="531dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1" />
+</LinearLayout>

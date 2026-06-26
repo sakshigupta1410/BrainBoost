@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:text="WORD SEARCH"
+        android:textColor="#263238"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtScore"
+        android:text="Score : 0"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#263238"
+        android:gravity="left"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time : 01:00"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#D32F2F"
+        android:layout_marginTop="6dp"/>
+    <TextView
+        android:text="To Find: "
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#263238"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtWords"
+        android:textColor="#28978C"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="50dp"
+        android:padding="8dp"
+        android:alignmentMode="alignBounds"/>
+
+
+</LinearLayout>

@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_soft_gradient">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- ⭐ SCIENCE ⭐ -->
+        <TextView
+            android:text="Science"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+
+            <!-- 🧠 Science Detective -->
+            <LinearLayout
+                android:id="@+id/cardScienceDetective"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/science"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="12dp"/>
+
+                <TextView
+                    android:text="Science Detective"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <!-- 🌡 Mind of a Molecule -->
+            <LinearLayout
+                android:id="@+id/cardMindMolecule"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/molecule"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"/>
+
+                <TextView
+                    android:text="Mind of a Molecule"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <!-- 🐍 Food Chain Builder -->
+            <LinearLayout
+                android:id="@+id/cardFoodChain"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/cycle"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"/>
+
+                <TextView
+                    android:text="Food Chain Builder"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <!-- Code Quiz Card -->
+            <LinearLayout
+                android:id="@+id/cardCodeQuiz"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:padding="16dp"
+                android:elevation="6dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/programming" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Code Quiz"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp" />
+            </LinearLayout>
+
+
+        </GridLayout>*
+
+        <!-- ⭐ MATHS ⭐ -->
+        <TextView
+            android:text="Maths"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:paddingTop="20dp"
+            android:paddingBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+
+            <LinearLayout
+                android:id="@+id/cardMathQuiz"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/calculator" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:text="Math Quiz"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+                </TextView>
+
+            </LinearLayout>
+            <!-- Sudoku-->
+            <LinearLayout
+                android:id="@+id/cardSudoku"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:padding="16dp"
+                android:elevation="6dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/sudoku" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sudoku"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp" />
+            </LinearLayout>
+
+            <!-- Speed Tap -->
+            <LinearLayout
+                android:id="@+id/cardSpeedTap"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/smartphone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="Speed Tap"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Missing Number -->
+            <LinearLayout
+                android:id="@+id/cardMissingNumber"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/game" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="Missing Number"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </GridLayout>
+
+        <!-- ⭐ MEMORY ⭐ -->
+        <TextView
+            android:text="Memory and Puzzles"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:paddingTop="20dp"
+            android:paddingBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+
+            <LinearLayout
+                android:id="@+id/cardPuzzleGame"
+                android:layout_width="0dp"
+                android:layout_height="186dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/puzzle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:text="Puzzles"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+                </TextView>
+
+            </LinearLayout>
+            <!-- GAME CARD TEMPLATE (repeated for each) -->
+            <LinearLayout
+                android:id="@+id/cardMemoryFlip"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:padding="16dp"
+                android:elevation="6dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/card_game" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Memory Card Flip"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/cardMazeGame"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:padding="16dp"
+                android:elevation="6dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/maze" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maze Game"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cardChess"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:padding="16dp"
+                android:elevation="6dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/chess" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chess"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp" />
+            </LinearLayout>
+
+        </GridLayout>
+
+        <!-- ⭐ MEMORY ⭐ -->
+        <TextView
+            android:text="Fun and Entertainment"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:paddingTop="20dp"
+            android:paddingBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+
+            <!-- Word Search -->
+            <LinearLayout
+                android:id="@+id/cardWordSearch"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/crossword" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="Word Search"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Word Search -->
+            <LinearLayout
+                android:id="@+id/card2048"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_puzzle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="2048 Puzzle"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Word Scramble -->
+            <LinearLayout
+                android:id="@+id/cardWordScramble"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/alphabet" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="Word Scramble"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!-- Tic Tac Toe -->
+            <LinearLayout
+                android:id="@+id/cardTicTacToe"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/card_bg"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/tic_tac" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="Tic-Tac-Toe"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

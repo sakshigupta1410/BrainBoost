@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- background circle -->
+    <path
+        android:fillColor="#FF6D00"
+        android:pathData="M50,2A48,48 0 1,0 50,98A48,48 0 1,0 50,2z"/>
+    <!-- inner circle (like brain dot) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,30a14,14 0 1,0 0.001,0zM36,58a6,6 0 1,0 0.001,0zM64,58a6,6 0 1,0 0.001,0z"/>
+</vector>
